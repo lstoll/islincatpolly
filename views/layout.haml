@@ -1,0 +1,9 @@
+%html
+  %head
+    %link{:rel => 'stylesheet', :media => 'screen', :href => '/style.css'}
+    %title Is Linc at Polly?
+  %body{:class => @at_polly.to_s}
+    %section
+      = yield
+      %p#status
+        %a{:href => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Polly+Cocktail+Lounge,+401+Brunswick+Street,+Fitzroy,+Victoria,+Australia&aq=0&sll=37.0625,-95.677068&sspn=54.753001,113.818359&ie=UTF8&hq=Polly+Cocktail+Lounge,&hnear=401+Brunswick+St,+Fitzroy+Victoria+3065,+Australia&ll=-37.795135,144.978762&spn=0.051275,0.111151&z=14"} Polly.

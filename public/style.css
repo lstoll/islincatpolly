@@ -1,0 +1,7 @@
+body {color: #FFFFFF; background-color: #000000;}
+body.yes {background-color: #7BAD2E;}
+body.maybe {background-color: #F6D24A;}
+body.no {background-color: #993F4D;}
+section {font: 1em helvetica,"helvetica neue", arial, sans-serif; margin: 0; padding: 1em 0 0 0; text-align: center;}
+h1#outcome {font-size: 15em; padding: 0;margin: 0;}
+p#status, p#status a, p#status a:hover, p#status a:visited, p#status a:active {font-size: 1em;color: #FFFFFF}

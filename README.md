@@ -6,4 +6,6 @@ Checks if I am at polly.
 
 Deploy to heroku
 
-Set GOWALLA_USER, GOWALLA_PASS & GOWALLA_APIKEY
+heroku config:add GOWALLA_USER=x GOWALLA_PASS=x GOWALLA_APIKEY=x
+
+You will need to pass this in to rackup too.
